@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "P3",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "node-sass --output dist/css scss/style.scss",
+     "css-watch": "npm run css-compile && npm run css-compile -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cgoood/ohmyfood.git"
+  },
+  "author": "Cédric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cgoood/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Cgoood/ohmyfood#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
