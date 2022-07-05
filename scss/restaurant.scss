@@ -85,7 +85,7 @@ img {
             cursor: pointer;
         }
 
-        @for $i from 1 through 4 {
+        @for $i from 1 through 5 {
 
             &:nth-child(#{$i}) {
                 animation-delay: 300ms*$i;
@@ -95,12 +95,12 @@ img {
         @keyframes translate-menu {
 
             0% {
-                transform: translateY(-50%);
+                transform: translateY(50%);
                 opacity: 0;
             }
 
             100% {
-                transform: translateY(0);
+                transform: translateY(0%);
                 opacity: 1;
             }
         }

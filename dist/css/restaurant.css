@@ -76,13 +76,15 @@ img {
       animation-delay: 900ms; }
     .menus .dishes:nth-child(4) {
       animation-delay: 1200ms; }
+    .menus .dishes:nth-child(5) {
+      animation-delay: 1500ms; }
 
 @keyframes translate-menu {
   0% {
-    transform: translateY(-50%);
+    transform: translateY(50%);
     opacity: 0; }
   100% {
-    transform: translateY(0);
+    transform: translateY(0%);
     opacity: 1; } }
     .menus .dishes .detail-dishes {
       padding: 15px;
